@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Введите параметры:</h1>
+    <form action="/result" method="POST">
+        <label for="value1">Параметр 1:</label>
+        <input type="text" id="value1" name="value1" required>
+
+        <label for="value2">Параметр 2:</label>
+        <input type="text" id="value2" name="value2" required>
+
+        <label for="value3">Параметр 3:</label>
+        <input type="text" id="value3" name="value3" required>
+
+        <label for="value4">Параметр 4:</label>
+        <input type="text" id="value4" name="value4" required>
+
+        <label for="value5">Параметр 5:</label>
+        <input type="text" id="value5" name="value5" required>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
